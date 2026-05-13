@@ -24,7 +24,7 @@ Contact Information:
 - Phone: +966562984106 / +966553368212
     """,
     'category': 'Construction',
-    'author': 'Abdulkrim Osman (+966562984106, +966553368212)',
+    'author': 'leapai.ai',
     'website': 'https://leapai.ai',
     'support': 'abdzoro89@gmail.com',
     'maintainer': 'a.osman@bab.com.sa',
