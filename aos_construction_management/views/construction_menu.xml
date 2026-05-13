@@ -5,7 +5,7 @@
     <menuitem id="menu_construction_root"
         name="Construction"
         sequence="1"
-        web_icon="construction_management,static/description/icon.png"/>
+        web_icon="aos_construction_management,static/description/icon.png"/>
 
     <!-- Dashboard -->
     <menuitem id="menu_construction_dashboard"
@@ -106,6 +106,6 @@
         name="Configuration"
         parent="menu_construction_root"
         sequence="100"
-        groups="construction_management.group_construction_admin"/>
+        groups="aos_construction_management.group_construction_admin"/>
 
 </odoo>

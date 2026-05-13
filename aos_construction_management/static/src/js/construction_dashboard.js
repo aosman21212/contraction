@@ -5,7 +5,7 @@ import { useService } from "@web/core/utils/hooks";
 import { Component, useState, onWillStart } from "@odoo/owl";
 
 class ConstructionDashboard extends Component {
-    static template = "construction_management.ConstructionDashboard";
+    static template = "aos_construction_management.ConstructionDashboard";
 
     setup() {
         this.orm = useService("orm");
@@ -83,7 +83,7 @@ class ConstructionDashboard extends Component {
     }
 
     openBOQ() {
-        this.action.doAction("construction_management.action_construction_boq");
+        this.action.doAction("aos_construction_management.action_construction_boq");
     }
 
     openWorkOrders(pending) {
@@ -120,11 +120,11 @@ class ConstructionDashboard extends Component {
     }
 
     openExpenses() {
-        this.action.doAction("construction_management.action_construction_expense");
+        this.action.doAction("aos_construction_management.action_construction_expense");
     }
 
     openRABilling() {
-        this.action.doAction("construction_management.action_construction_ra_billing");
+        this.action.doAction("aos_construction_management.action_construction_ra_billing");
     }
 }
 

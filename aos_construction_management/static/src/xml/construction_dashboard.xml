@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <templates xml:space="preserve">
-    <t t-name="construction_management.ConstructionDashboard">
+    <t t-name="aos_construction_management.ConstructionDashboard">
         <div class="o_construction_dashboard o_action p-4 overflow-auto">
 
             <!-- Header -->

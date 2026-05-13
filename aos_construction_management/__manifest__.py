@@ -41,8 +41,8 @@ A comprehensive module for managing construction projects including:
     ],
     'assets': {
         'web.assets_backend': [
-            'construction_management/static/src/js/construction_dashboard.js',
-            'construction_management/static/src/xml/construction_dashboard.xml',
+            'aos_construction_management/static/src/js/construction_dashboard.js',
+            'aos_construction_management/static/src/xml/construction_dashboard.xml',
         ],
     },
     'demo': ['demo/construction_demo.xml'],
