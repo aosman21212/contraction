@@ -43,7 +43,7 @@ class ConstructionBOQ(models.Model):
         self.state = 'draft'
 
     def action_print_boq(self):
-        return self.env.ref('construction_management.action_report_boq').report_action(self)
+        return self.env.ref('aos_construction_management.action_report_boq').report_action(self)
 
 
 class ConstructionBOQLine(models.Model):
